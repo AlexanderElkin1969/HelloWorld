@@ -8,7 +8,7 @@ public class Main {
             if (str[i].equals("")) continue;
             for (int j = i + 1; j < str.length; j++) {
                 if (str[i].equals(str[j])) {
-                    str[j] = "";
+                    str[j] = "";                                    //   удаляем дубли
                 }
             }
             System.out.print(str[i]);
